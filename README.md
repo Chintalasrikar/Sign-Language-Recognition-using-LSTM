@@ -33,18 +33,24 @@ Figure: The model recognizing the "Name" gesture.
 # Features
 
 Recognition of 10 commonly used gestures.
+
 Real-time gesture recognition capability.
+
 High accuracy and efficient processing of sequential data.
+
 
 
 # Getting Started
 
 1. Clone the Repository
-'''git clone https://github.com/yourusername/sign-language-recognition.git
-cd sign-language-recognition'''
 
-2. Install Dependencies
-pip install -r requirements.txt
+'''git clone https://github.com/yourusername/sign-language-recognition.git
+
+'''cd sign-language-recognition
+
+3. Install Dependencies\
+
+'''pip install -r requirements.txt
 
 
 # Technologies Used
