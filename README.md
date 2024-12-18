@@ -5,29 +5,39 @@ This project aims to bridge the communication gap between the hearing and speech
 # About the Project
 
 We trained the model to recognize 10 common gestures:
+
 Hello, Thanks, How are you, Fine, Good, Yes, Name, No, Happy, and House.
+
 These gestures are interpreted from sequences of keypoints extracted from videos/images, making it an efficient tool for recognizing temporal patterns in sign language.
 
 Here’s how the model works:
 
-Input: Hand gesture video or image.
+**Input:** Hand gesture video or image.
 
-Processing: Keypoints are extracted using MediaPipe.
+**Processing:** Keypoints are extracted using MediaPipe.
 
-Output: The recognized gesture is displayed in text.
+**Output:** The recognized gesture is displayed in text.
+
+
 
 # Demo
+
+
 
 ![hello](https://github.com/user-attachments/assets/e4376cb4-1588-48f4-8779-ba1145583816)
 
 
-Figure: The model recognizing the "Hello" gesture.
+
+**Figure:** The model recognizing the **"Hello"** gesture.
+
+
 
 
 ![Screenshot 2024-09-11 122250](https://github.com/user-attachments/assets/9b275b8f-0f3e-41b8-be4e-a9f584b3b9d4)
 
 
-Figure: The model recognizing the "Name" gesture.
+
+**Figure:** The model recognizing the **"Name"** gesture.
 
 
 # Features
@@ -42,26 +52,29 @@ High accuracy and efficient processing of sequential data.
 
 # Getting Started
 
-1. Clone the Repository
+### Clone the Repository
 
-'''git clone https://github.com/yourusername/sign-language-recognition.git
+```
+git clone https://github.com/yourusername/sign-language-recognition.git
+```
+```
+cd sign-language-recognition
+```
+### Install Dependencies
 
-'''cd sign-language-recognition
-
-3. Install Dependencies\
-
-'''pip install -r requirements.txt
-
+```
+pip install -r requirements.txt
+```
 
 # Technologies Used
 
-TensorFlow/Keras: For building and training the LSTM model.
+**TensorFlow/Keras:** For building and training the LSTM model.
 
-OpenCV & MediaPipe: For video and keypoint extraction.
+**OpenCV & MediaPipe:** For video and keypoint extraction.
 
-Python: Core programming language.
+**Python:** Core programming language.
 
-Matplotlib: For visualizing model performance
+**Matplotlib:** For visualizing model performance
 
 
 # License
